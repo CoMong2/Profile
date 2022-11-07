@@ -7,6 +7,8 @@
     font-size: 35px;
     font-weight: bold;
     color: #F8F8FF;
+    text-align: center;
+    margin: auto;
 }
 
 .nav-items{
@@ -35,4 +37,65 @@
     font-family: "mugunghwa";
     font-weight: 300;
     color: #F8F8FF;
+}
+
+img{
+    margin: 20px;
+    align-items : center;
+}
+
+p{
+    font-size: 30px;
+    font-family: "mugunghwa";
+    font-weight: bold;
+    color: #F8F8FF;
+}
+
+#static_data {
+    display:flex;
+    justify-content: center;
+}
+
+section:nth-child(1), section:nth-child(2) {
+    background:;
+}
+
+#topMenu {
+    height: 30px;
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#topMenu ul li {
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#topMenu .menuLink {
+    text-decoration:none;
+    color: white;
+    display: block;
+    width: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "mugunghwa";
+}
+
+#topMenu .menuLink:hover {
+    color: red;
+    background-color: #4d4d4d;
+}
+
+#site_name {
+    font-family: "mugunghwa";
+    font-size: 50px;
+    font-weight: bold;
+    color: #F8F8FF;
+    text-align: center;
+    cursor: default;
 }

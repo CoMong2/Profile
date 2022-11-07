@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="소개페이지">
+    <title>노랭이의 이력서</title>
+    <link href="../templates/css/font.css" rel="stylesheet" type="text/css"/>
+    <link href="../templates/css/style.css" rel="stylesheet" type="text/css"/>
+
+    <style>
+        #current, #previous {
+            color: white;
+            font-family: "mugunghwa";
+            justify-content: center;
+            display: flex;
+        }
+
+        section {
+            justify-content: center;
+        }
+
+        #work {
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body style="background-color: #2d2d2d">
+    <h1 id="site_name">Roh GyeongHwan</h1>
+    <nav id="topMenu">
+        <ul>
+            <li><a class="menuLink" href="./index.html">Home</a></li>
+            <li><a class="menuLink" href="./profile.html">About me</a></li>
+            <li><a class="menuLink" href="./experience.html">Experience</a></li>
+            <li><a class="menuLink" href="./license.html">License</a></li>
+            <li><a class="menuLink" href="./letter.html">Letter</a></li>
+            <!--<li><a class="menuLink" href="./community.html">Community</a></li>-->
+        </ul>
+    </nav>
+
+    <main id="work">
+        <p>현 직장</p>
+        <table  id="current">
+            <thead>
+                <tr>
+                    <th>
+                        <img src="../templates/images/asianaidt.png" width="110" height="80">
+                    </th>
+                    <td>
+                        <h1>2022.02.01 ~ : 아시아나IDT 금융DT수행팀</h1>
+                        <h2>업무 : 금융권 디지털채널 통합 프로젝트 참여 (어드민)</h2>
+                        <h2>언어 : Java, Spring</h2>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+        <p>이전 직장</p>
+        <table id="previous">
+            <thead>
+            <tr>
+                <th>
+                    <img src="../templates/images/jvm.png" width="110" height="80">
+                </th>
+                <td>
+                    <h1>2021.08.17 ~ 2022.01.28 : JVM (이직으로 인한 퇴사)</h1>
+                    <h2>업무 : 자동 약 조제 소프트웨어 개발 및 유지보수</h2>
+                    <h2>언어 : C#, PostgreSQL</h2>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <img src="../templates/images/withtech.png" width="110" height="80">
+                </th>
+                <td>
+                    <h1>2020.10.05 ~ 2021.02.25 : 위드텍 (졸업으로 인한 퇴사)</h1>
+                    <h2>업무 : 반도체 공정 대기 측정 장비 소프트웨어 개발 및 유지보수</h2>
+                    <h2>언어 : C#, PostgreSQL</h2>
+                </td>
+            </tr>
+            </thead>
+        </table>
+    </main>
+</body>
+</html>
