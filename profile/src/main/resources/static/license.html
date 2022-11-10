@@ -8,23 +8,21 @@
     <link href="../templates/css/style.css" rel="stylesheet" type="text/css"/>
 
     <style>
-        #site_name {
+        #license_list {
+            color: white;
             font-family: "mugunghwa";
-            font-size: 50px;
-            font-weight: bold;
-            color: #F8F8FF;
-            text-align: center;
-            cursor: default;
+            justify-content: center;
+            display: flex;
         }
 
+        section {
+            justify-content: center;
+        }
 
-
-
-
-
-
-
-
+        #work {
+            text-align: center;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
@@ -40,33 +38,23 @@
         <!--<li><a class="menuLink" href="./community.html">Community</a></li>-->
     </ul>
 </nav>
-<div class="container">
-    <main id="static_data">
-        <section>
-            <article>
-                <img src="../templates/images/photo_profile.jpg" width="200" height="250">
-            </article>
-        </section>
-        <section>
-            <article>
-                <p style="margin-left: 10px">이름 : 노경환</p>
-                <p style="margin-left: 10px">나이 : 28살</p>
-                <p style="margin-left: 10px">생년월일 : 1995.11.01</p>
-                <p style="margin-left: 10px">주소 : 서울시 동작구 노량진동 222-41</p>
-                <p style="margin-left: 10px">이메일 : ghroh0915@gmail.com</p>
-            </article>
-        </section>
-    </main>
-    <main>
-        <section>
-            <h3>자격증</h3>
-            <h4>Toeic Speaking Test : IH (130점)<br/>
-                한국사능력검정시험 2급</h4>
-        </section>
-        <section>
-            <p>test2</p>
-        </section>
-    </main>
-</div>
+
+<main id="license">
+    <p>자격증</p>
+    <table  id="license_list">
+        <thead>
+        <tr>
+            <th>
+                <img src="../templates/images/asianaidt.png" width="150" height="120">
+            </th>
+            <td>
+                <h1>2022.02.01 ~ : 아시아나IDT</h1>
+                <h2>업무 : 금융 SI 프로젝트 수행팀</h2>
+                <h2>언어 : Java, Spring</h2>
+            </td>
+        </tr>
+        </thead>
+    </table>
+</main>
 </body>
 </html>
